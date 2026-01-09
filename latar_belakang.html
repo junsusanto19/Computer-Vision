@@ -1,0 +1,133 @@
+<!-- Home Section Start -->
+ <!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Comvis Team-3</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="index.html"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="index.html">TEAM3-Comvis</a> <a style="font-size:larger;"> &nbsp;</a></div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- My Services Section Start -->
+  <section class="" id="">
+    <div class="content">
+        <br>
+        <br>
+      <div class="title"><span>Latar Belakang</span></div>
+      <div>
+        <p style="  text-align: justify;
+  color: #0E2431; line-height: 2;">
+    
+          Perkembangan Computer Vision dalam satu dekade terakhir menunjukkan peningkatan yang sangat pesat, terutama dengan hadirnya pendekatan deep learning yang mampu mencapai tingkat akurasi tinggi pada berbagai tugas visual seperti klasifikasi citra, deteksi objek, dan segmentasi semantik. Model-model modern seperti convolutional neural networks (CNN) dan arsitektur berbasis encoder–decoder telah menjadi standar de facto dalam sistem vision cerdas. Namun, pencapaian akurasi yang tinggi tersebut umumnya dibayar dengan kebutuhan komputasi yang besar, khususnya ketergantungan terhadap GPU diskrit berperforma tinggi. Dalam konteks implementasi nyata, ketergantungan terhadap GPU menjadi hambatan serius bagi adopsi sistem Computer Vision secara luas. Banyak lingkungan aplikasi—seperti perangkat edge, sistem tertanam (embedded systems), robot edukasi, laptop standar, dan fasilitas akademik—tidak memiliki akses terhadap GPU kelas atas. Kondisi ini menciptakan kesenjangan antara kemajuan algoritma Computer Vision di sisi riset dan kemampuan implementasi di sisi perangkat keras yang tersedia di lapangan. </p>
+          <br>
+           <p style="  text-align: justify;
+  color: #0E2431; line-height: 2;">
+          Segmentasi citra merupakan salah satu komponen paling krusial dalam Intelligent Vision System karena memungkinkan pemahaman visual hingga tingkat piksel (pixel-level understanding). Berbeda dengan klasifikasi atau deteksi objek yang bersifat global atau berbasis bounding box, segmentasi memberikan informasi spasial yang lebih kaya dan presisi. Informasi ini menjadi fondasi bagi berbagai aplikasi lanjutan seperti augmented reality, virtual background, human–computer interaction, navigasi visual, serta pemahaman adegan (scene understanding). Namun demikian, sebagian besar metode segmentasi modern dirancang dengan asumsi ketersediaan sumber daya komputasi tinggi, sehingga performanya menurun drastis ketika dijalankan pada sistem berbasis CPU. Selain tantangan komputasi, aplikasi Computer Vision modern juga menuntut kemampuan pemrosesan secara real-time. Sistem real-time tidak hanya dituntut untuk menghasilkan keluaran yang akurat, tetapi juga harus menjaga latensi rendah dan Frame Per Second (FPS) yang stabil agar interaksi pengguna tetap responsif. 
+          </p>
+          <br>
+           <p style="  text-align: justify;
+  color: #0E2431; line-height: 2;">
+          Pada perangkat berbasis CPU, tantangan ini semakin kompleks karena keterbatasan paralelisme dan bandwidth memori dibandingkan GPU. Oleh karena itu, diperlukan strategi desain sistem yang cermat, mulai dari pemilihan model, optimasi resolusi input, hingga pengelolaan pipeline pemrosesan. 
+Berdasarkan permasalahan tersebut, pendekatan lightweight real-time segmentation menjadi relevan dan penting untuk diteliti. Pendekatan ini tidak berfokus pada pencapaian akurasi maksimal semata, tetapi pada keseimbangan antara akurasi, efisiensi komputasi, dan stabilitas runtime. Dalam konteks proyek ini, pemanfaatan model segmentasi ringan yang telah dioptimalkan untuk CPU, dikombinasikan dengan algoritma klasik sebagai mekanisme fallback, menjadi solusi pragmatis untuk menjamin sistem tetap berjalan pada berbagai kondisi lingkungan. Lebih lanjut, proyek ini tidak hanya berhenti pada tahap segmentasi, tetapi juga mengeksplorasi bagaimana hasil segmentasi dapat dimanfaatkan untuk pemahaman adegan dasar. 
+</p>
+<br>
+ <p style="  text-align: justify;
+  color: #0E2431; line-height: 2;">
+Dengan mengekstraksi informasi spasial dari mask segmentasi, sistem mampu melakukan interpretasi semantik sederhana, seperti menentukan keberadaan dan posisi relatif subjek di dalam frame. Pendekatan ini menunjukkan bahwa bahkan dengan keterbatasan perangkat keras, sistem Computer Vision masih dapat memberikan nilai fungsional yang signifikan. Dengan demikian, proyek Low Cost Intelligent Vision System for Real-Time Scene Understanding on Standard Hardware diharapkan dapat menjadi bukti empiris bahwa sistem vision cerdas berbasis CPU masih layak dan relevan untuk aplikasi real-time. Proyek ini sekaligus menjembatani kesenjangan antara kebutuhan praktis di lapangan dan kompleksitas solusi Computer Vision modern, khususnya dalam konteks pembelajaran dan penerapan di lingkungan akademik.
+</p>
+         
+      </div>
+
+        <div class="post-navigation">
+            <a href="tujuan_rumusan_masalah.html" class="nav-btn next">
+                Next <span class="arrow">→ Rumusan Masalah & Tujuan</span>
+            </a>
+        </div>
+
+        <style>
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #e0e0e0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(90deg, #0078ff, #00b7ff);
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 120, 255, 0.2);
+}
+
+.nav-btn:hover {
+  background: linear-gradient(90deg, #005fcc, #0099ff);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 120, 255, 0.3);
+}
+
+.arrow {
+  font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+  .post-navigation {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+</style>
+
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Comvis Team-3 | &#169; 2026 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
